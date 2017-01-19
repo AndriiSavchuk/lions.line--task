@@ -65,8 +65,9 @@
         background-color: $color-primary
         padding: 100px 60px
         width: 32%
-        bottom: 0
+        bottom: -40px
         right: 0
+        z-index: 1
         .welcome-content
             position: relative
             border-top: 2px solid $color-tertiary
@@ -78,7 +79,7 @@
                 left: 43%
                 padding: 5px
                 background-color: $color-primary
-                z-index: 9
+                z-index: 1
             h1
                 margin: 26px 0 95px 0
                 font-family: $font-family-secondary
@@ -99,6 +100,27 @@
         img
             height: 40px
             width: 35px
+
+
+/* Under Header line styles */
+
+#line
+    position: relative
+    background-color: $color-secondary
+    height: 80px
+    .arrows
+        position: absolute
+        top: 15%
+        left: 66%
+        color: #a0adb9
+        z-index: 1
+        img
+            height: 20px
+        .left-arrow
+            transform: rotate(180deg)
+            margin-right: 50px
+
+
 
 /* Always at the end */
 
