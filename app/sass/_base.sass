@@ -76,12 +76,16 @@ textarea
 
 /* Anchor */
 
-
-
+a
+    color: $font-color-secondary
+    text-decoration: none
+    &:hover
+        color: $font-color-secondary
+        text-decoration: none
 
 /* Buttons */
 
-.my-btn, a.my-btn
+.button, a.button
     cursor: pointer
     display: inline-block
     vertical-align: middle
@@ -96,17 +100,15 @@ textarea
     border: 1px solid #8898a8
     transition: 0.7s
 
-a.my-btn
+a.button
     padding: 2px
     &:hover
         background-color: $color-primary
 
-.my-btn:hover
+.button:hover
     background-color: $color-secondary
     color: $font-color-secondary
     transition: 0.7s
-
-
 
 
 
