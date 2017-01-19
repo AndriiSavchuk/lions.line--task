@@ -181,8 +181,47 @@
                 text-align: center
         .room-photo
             margin-bottom: 30px
+            position: relative
+            h3
+                position: absolute
+                display: inline-block
+                top: 40px
+                color: $font-color-secondary
+                text-transform: uppercase
+                font-family: $font-family-secondary
+                font-size: 18px
+                opacity: .8
+            &.standart
+                h3
+                    left: 30%
+            &.friends
+                h3
+                    left: 25%
+            &.semilux
+                h3
+                    left: 27%
+            &.shale
+                h3
+                    left: 45%
+            &.lux
+                h3
+                    left: 40%
+                    
+            &:before
+                position: absolute
+                content: ''
+                width: 100%
+                height: 100%
+                top: 0
+                left: 0
+                background: linear-gradient(to bottom, rgba(0,34,68, 0.7) 0%, rgba(0,34,68, 0.45) 30%)
             img
+                display: block
                 max-width: 100%
+                z-index: -1
+
+
+
 
 
 
