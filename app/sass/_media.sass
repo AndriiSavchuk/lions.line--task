@@ -5,23 +5,359 @@
 
 /* Large devices (desktops, less than 1200px) */
 @media only screen and (max-width : 1199px)
-	/**/
+
+    /* Header styles */
+
+    #header
+        position: relative
+        background: url("../img/header_bg.jpg") no-repeat center
+        background-size: cover
+        height: 1000px
+        .top-nav
+            .menu
+                float: left
+                .menu-img
+                    float: left
+                    width: 36px
+                    height: 21px
+                    line-height: 1
+                    img
+                        padding: 13px 11px
+                        background-color: $color-secondary
+
+                .phone
+                    float: right
+                    background-color: rgba(0, 0, 0, 0.4)
+                    color: $font-color-secondary
+                    padding: 20px 16px
+                    font-size: 22px
+                    margin-left: 21px
+                    line-height: 1
+
+
+
+            .book-lang
+                float: right
+                .book
+                    float: left
+                    position: relative
+                    a
+                        display: inline-block
+                        background-color: $color-tertiary
+                        padding: 20px 16px 20px 60px
+                        text-transform: uppercase
+                        font-size: 22px
+                        line-height: 1
+                    img
+                        position: absolute
+                        top: 14px
+                        left: 20px
+                        width: 30px
+
+                .lang
+                    float: right
+                    padding: 20px 15px
+                    background-color: $color-secondary
+                    color: $font-color-secondary
+
+
+        .welcome
+            position: absolute
+            float: right
+            background-color: $color-primary
+            padding: 50px 20px //
+            width: 40% //
+            bottom: 0
+            right: 0
+            .welcome-content
+                border-top: 2px solid $color-tertiary
+                padding: 0 45px
+                text-align: center
+                h1
+                    margin: 26px 0 45px 0 //
+                    font-family: $font-family-secondary
+                    font-size: 36px
+                    font-weight: 500
+                    text-align: center
+                p
+                    text-align: left
+                a
+                    margin-top: 45px //
+                    font-size: 22px
+
+        .placeholder
+            position: absolute
+            text-align: center
+            left: 50%
+            bottom: 30px
+            img
+                height: 40px
+                width: 35px
+
+
 
 
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (max-width : 991px)
-	/**/
+
+   /* Header styles */
+
+   #header
+       position: relative
+       background: url("../img/header_bg.jpg") no-repeat center
+       background-size: cover
+       height: 1000px
+       .top-nav
+           .menu
+               float: left
+               .menu-img
+                   float: left
+                   width: 36px
+                   height: 21px
+                   line-height: 1
+                   img
+                       padding: 13px 11px
+                       background-color: $color-secondary
+               .phone
+                   float: right
+                   background-color: rgba(0, 0, 0, 0.4)
+                   color: $font-color-secondary
+                   padding: 20px 16px
+                   font-size: 22px
+                   margin-left: 21px
+                   line-height: 1
+
+           .book-lang
+               float: right
+               .book
+                   float: left
+                   position: relative
+                   a
+                       display: inline-block
+                       background-color: $color-tertiary
+                       padding: 20px 16px 20px 60px
+                       text-transform: uppercase
+                       font-size: 22px
+                       line-height: 1
+                   img
+                       position: absolute
+                       top: 14px
+                       left: 20px
+                       width: 30px
+               .lang
+                   float: right
+                   padding: 20px 15px
+                   background-color: $color-secondary
+                   color: $font-color-secondary
+
+       .welcome
+           position: absolute
+           float: right
+           background-color: $color-primary
+           padding: 50px 20px //
+           width: 40% //
+           bottom: 0
+           right: 0
+           .welcome-content
+               border-top: 2px solid $color-tertiary
+               padding: 0 45px
+               text-align: center
+               h1
+                   margin: 26px 0 45px 0 //
+                   font-family: $font-family-secondary
+                   font-size: 32px
+                   font-weight: 500
+                   text-align: center
+               p
+                   text-align: left
+               a
+                   margin-top: 45px //
+                   font-size: 22px
+
+       .placeholder
+           position: absolute
+           text-align: center
+           left: 45% //
+           bottom: 30px
+           img
+               height: 40px
+               width: 35px
 
 
 /* Small devices (landscape phones, less than 768px) */
 @media only screen and (max-width : 767px)
-	/**/
+
+    /* Header styles */
+
+    #header
+        position: relative
+        background: url("../img/header_bg.jpg") no-repeat center
+        background-size: cover
+        height: 1000px
+        .top-nav
+            .menu
+                float: left
+                .menu-img
+                    float: left
+                    width: 36px
+                    height: 21px
+                    line-height: 1
+                    img
+                        padding: 9px 11px //
+                        background-color: $color-secondary
+                .phone
+                    float: right
+                    background-color: rgba(0, 0, 0, 0.4)
+                    color: $font-color-secondary
+                    padding: 16px 12px //
+                    font-size: 22px
+                    margin-left: 18px //
+                    line-height: 1
+
+
+
+            .book-lang
+                float: right
+                .book
+                    float: left
+                    position: relative
+                    a
+                        display: inline-block
+                        background-color: $color-tertiary
+                        padding: 16px 12px 16px 50px //
+                        text-transform: uppercase
+                        font-size: 22px
+                        line-height: 1
+                    img
+                        position: absolute
+                        top: 9px //
+                        left: 15px //
+                        width: 30px
+                .lang
+                    float: right
+                    padding: 16px 15px //
+                    background-color: $color-secondary
+                    color: $font-color-secondary
+
+        .welcome
+            position: absolute
+            float: right
+            background-color: $color-primary
+            padding: 50px 20px //
+            width: 50% //
+            bottom: 0
+            right: 0
+            .welcome-content
+                border-top: 2px solid $color-tertiary
+                padding: 0 45px
+                text-align: center
+                h1
+                    margin: 26px 0 45px 0 //
+                    font-family: $font-family-secondary
+                    font-size: 32px //
+                    font-weight: 500
+                    text-align: center
+                p
+                    text-align: left
+                a
+                    margin-top: 45px //
+                    font-size: 22px
+
+        .placeholder
+            position: absolute
+            text-align: center
+            left: 45% //
+            bottom: 30px
+            img
+                height: 40px
+                width: 35px
 
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width : 575px)
-	/**/
 
+    /* Header styles */
+
+    #header
+        position: relative
+        background: url("../img/header_bg.jpg") no-repeat center
+        background-size: cover
+        height: 1000px
+        .top-nav
+            .menu
+                float: left
+                .menu-img
+                    float: left
+                    width: 36px
+                    height: 21px
+                    line-height: 1
+                    img
+                        padding: 9px 11px //
+                        background-color: $color-secondary
+                .phone
+                    float: right
+                    background-color: rgba(0, 0, 0, 0.4)
+                    color: $font-color-secondary
+                    padding: 16px 12px //
+                    font-size: 22px
+                    margin-left: 18px //
+                    line-height: 1
+
+            .book-lang
+                float: right
+                .book
+                    float: left
+                    position: relative
+                    a
+                        display: inline-block
+                        background-color: $color-tertiary
+                        padding: 16px 12px 16px 50px //
+                        text-transform: uppercase
+                        font-size: 22px
+                        line-height: 1
+                    img
+                        position: absolute
+                        top: 9px //
+                        left: 15px //
+                        width: 30px
+                .lang
+                    float: right
+                    padding: 16px 15px //
+                    background-color: $color-secondary
+                    color: $font-color-secondary
+
+        .welcome
+            position: absolute
+            float: right
+            background-color: $color-primary
+            padding: 50px 20px //
+            width: 50% //
+            bottom: 0
+            right: 0
+            .welcome-content
+                border-top: 2px solid $color-tertiary
+                padding: 0 45px
+                text-align: center
+                h1
+                    margin: 26px 0 45px 0 //
+                    font-family: $font-family-secondary
+                    font-size: 32px //
+                    font-weight: 500
+                    text-align: center
+                p
+                    text-align: left
+                a
+                    margin-top: 45px //
+                    font-size: 22px
+
+        .placeholder
+            position: absolute
+            text-align: center
+            left: 45% //
+            bottom: 30px
+            img
+                height: 40px
+                width: 35px
 
 /* Custom */
 @media only screen and (max-width : 480px)
