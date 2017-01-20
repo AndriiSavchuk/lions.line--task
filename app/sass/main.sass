@@ -63,7 +63,7 @@
     .welcome
         position: absolute
         float: right
-        background-color: $color-primary
+        background-color: #fff
         padding: 100px 60px
         width: 32%
         bottom: -40px
@@ -238,6 +238,8 @@
                 opacity: 0
                 transition: 0.7s
                 p
+                    padding: 0 20px
+                    margin-top: 50px
                     color: $font-color-secondary
                     font-size: 16px
                     font-family: $font-family-primary
@@ -245,7 +247,7 @@
                     opacity: .8
 
                 .persons-price
-                    margin-top: 40px
+                    margin-top: 60px
                     .persons
                         float: left
                         display: inline-block
@@ -282,7 +284,85 @@
         /* End Hover effects * /
 
 
+/* Section Offer styles */
 
+#offer
+    background-color: #fff
+    padding-bottom: 80px
+    .offer-wraper
+        float: left
+        width: 58.5%
+        .superoffer
+            padding: 50px
+            .superoffer-block
+                position: relative
+                border: 1px solid $color-secondary
+                .logo
+                    padding: 0 25px
+                    position: absolute
+                    top: -40px
+                    left: 41%
+                    background-color: #fff
+
+                h4
+                    margin-top: 50px
+                    font-family: $font-family-secondary
+                    text-transform: uppercase
+                    text-align: center
+
+                .superoffer-text
+                    padding: 40px 175px
+
+    .superoffer-img
+        position: relative
+        h6
+            position: absolute
+            top: 25px
+            left: 55px
+            color: $font-color-secondary
+            opacity: .8
+            font-size: 16px
+        img
+            max-width: 100%
+
+    .description-wrapper
+        width: 41.5%
+        float: right
+        padding-right: 25px
+        .offer-description
+            padding: 50px 0
+            position: relative
+            background-color: $color-secondary
+
+            .welc-icon
+                position: absolute
+                top: 50px
+                left: 47%
+                padding: 5px
+                background-color: $color-secondary
+                z-index: 1
+
+            .gold-line
+                width: 340px
+                max-width: 100%
+                border-top: 1px solid $color-tertiary
+
+            h3
+                color: $font-color-secondary
+                font-family: $font-family-secondary
+                text-align: center
+                text-transform: uppercase
+                opacity: .8
+
+            ul
+                list-style: none
+                margin-top: 45px
+                li
+                    color: $font-color-secondary
+                    opacity: .8
+                    margin-bottom: 35px
+                    img
+                        margin-right: 10px
 
 /* Always at the end */
 
