@@ -188,13 +188,13 @@
             position: relative
             h3
                 position: absolute
-                display: inline-block
                 top: 40px
                 color: $font-color-secondary
                 text-transform: uppercase
                 font-family: $font-family-secondary
                 font-size: 18px
                 opacity: .8
+                transition: 0.7s
             &.standart
                 h3
                     left: 30%
@@ -210,7 +210,6 @@
             &.lux
                 h3
                     left: 40%
-
             &:before
                 position: absolute
                 content: ''
@@ -224,9 +223,63 @@
                 max-width: 100%
                 z-index: -1
 
+        /* Hover effects * /
 
+        .room-photo
+            .mask
+                position: absolute
+                top: 5%
+                left: 5%
+                width: 90%
+                height: 90%
+                border: 1px solid $color-primary
+                padding-top: 80px
+                overflow: hidden
+                opacity: 0
+                transition: 0.7s
+                p
+                    color: $font-color-secondary
+                    font-size: 16px
+                    font-family: $font-family-primary
+                    text-align: center
+                    opacity: .8
 
+                .persons-price
+                    margin-top: 40px
+                    .persons
+                        float: left
+                        display: inline-block
+                        padding-left: 10px
+                        img
+                            display: inline-block
+                            width: 10px
+                        span
+                            color: $font-color-secondary
+                            opacity: .8
+                    .price
+                        display: inline-block
+                        float: right
+                        padding-right: 10px
+                        img
+                            display: inline-block
+                            width: 10px
+                        span
+                            color: $font-color-secondary
+                            opacity: .8
 
+        .room-photo
+            &:hover
+                h3
+                    top: 50px
+                    transition: 0.7s
+                .mask
+                    opacity: 1
+                    transition: 0.7s
+                .room-photo-blur
+                    filter: blur(5px)
+                    transition: 0.7s
+
+        /* End Hover effects * /
 
 
 
