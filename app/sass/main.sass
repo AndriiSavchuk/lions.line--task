@@ -47,13 +47,11 @@
                     line-height: 1
                     span
                         opacity: .8
-
                 img
                     position: absolute
                     top: 14px
                     left: 20px
                     width: 30px
-
             .lang
                 float: right
                 padding: 20px 15px
@@ -137,7 +135,6 @@
                 img
                     padding: 13px 11px
                     background-color: $color-secondary
-
             .phone
                 float: right
                 background-color: rgba(0, 0, 0, 0.4)
@@ -155,7 +152,6 @@
                 padding: 16px 16px
                 img
                     width: 30px
-
             .lang
                 float: right
                 padding: 20px 15px
@@ -172,18 +168,17 @@
                 padding: 5px
                 background-color: $color-primary
                 z-index: 1
-
             .gold-line
                 width: 340px
                 max-width: 100%
                 border-top: 1px solid $color-tertiary
-
             h3
                 margin-bottom: 95px
                 text-transform: uppercase
                 font-family: $font-family-secondary
                 font-size: 36px
                 text-align: center
+
         .room-photo
             margin-bottom: 30px
             position: relative
@@ -245,6 +240,7 @@
                     font-family: $font-family-primary
                     text-align: center
                     opacity: .8
+                    overflow: hidden
                 .persons
                     position: absolute
                     left: 10px
@@ -300,14 +296,12 @@
                     top: -40px
                     left: 41%
                     background-color: #fff
-
                 h4
                     margin-top: 50px
                     font-family: $font-family-secondary
                     text-transform: uppercase
                     text-align: center
                     font-size: 24px
-
                 .superoffer-text
                     padding: 40px 175px
 
@@ -331,7 +325,6 @@
             padding: 50px 0
             position: relative
             background-color: $color-secondary
-
             .welc-icon
                 position: absolute
                 top: 50px
@@ -339,7 +332,6 @@
                 padding: 5px
                 background-color: $color-secondary
                 z-index: 1
-
             .gold-line
                 width: 340px
                 max-width: 100%
@@ -351,7 +343,6 @@
                 text-align: center
                 text-transform: uppercase
                 opacity: .8
-
             ul
                 list-style: none
                 margin-top: 45px
@@ -382,7 +373,7 @@
     .welc-icon
         position: absolute
         top: 19px
-        left: 48.5%
+        left: 49%
         padding: 5px
         background-color: #ffffff
         z-index: 1
@@ -406,11 +397,175 @@
 
     .testimonial-button
         text-align: center
-
         a
             margin-top: 50px
             display: inline-block
 
-/* Always at the end */
+
+/* Section Advantages styles */
+
+#advanteges
+    position: relative
+    background-color: #fff
+    padding-top: 20px
+    padding-bottom: 80px
+    h3
+        color: $font-color-primary
+        text-transform: uppercase
+        text-align: center
+        font-family: $font-family-secondary
+        font-size: 36px
+        opacity: .8
+        margin-bottom: 75px
+    .welc-icon
+        position: absolute
+        top: 19px
+        left: 49%
+        padding: 5px
+        background-color: #ffffff
+        z-index: 1
+    .gold-line
+        width: 340px
+        max-width: 100%
+        border-top: 1px solid $color-tertiary
+
+    .restaurant
+        position: relative
+        .description-wrapper
+            position: absolute
+            top: 30px
+            left: 90px
+            padding: 12px
+            width: 458px
+            background: #ffffff
+            z-index: 1
+            .description
+                border: 1px solid $color-secondary
+                h5
+                    font-size: 24px
+                    text-align: center
+                    text-transform: uppercase
+                    font-family: $font-family-secondary
+                    margin-top: 40px
+                p
+                    padding: 0 40px
+                    margin-top: 30px
+                .description-arrow
+                    text-align: center
+                    padding-bottom: 30px
+                    a
+                        display: inline-block
+
+        .restaurant-slider
+            position: relative
+            .slider-photo
+                position: relative
+                float: left
+                width: 18%
+                height: 545px
+                overflow: hidden
+                &:before
+                    position: absolute
+                    content: ''
+                    width: 100%
+                    height: 100%
+                    top: 0
+                    left: 0
+                    background: rgba(255, 255, 255, 0.5)
+                img
+                    display: block
+                    width: 100%
+                    height: auto
+                    max-width: 100%
+                &:nth-child(3)
+                    float: right
+
+            .slider-photo-dish
+                float: left
+                height: 545px
+                width: 48.8%
+                margin-left: 7.7%
+                img
+                    display: block
+                    width: 100%
+                    height: auto
+                    max-width: 100%
+            .left-arrow
+                position: absolute
+                left: 21%
+                bottom: 30%
+                transform: rotate(90deg)
+            .right-arrow
+                position: absolute
+                left: 78%
+                bottom: 27%
+
+
+/* Section Booking styles */
+
+#booking
+    position: relative
+    background-color: #fff
+    padding-top: 20px
+    padding-bottom: 80px
+    h3
+        color: $font-color-primary
+        text-transform: uppercase
+        text-align: center
+        font-family: $font-family-secondary
+        font-size: 36px
+        opacity: .8
+        margin-bottom: 40px
+    .welc-icon
+        position: absolute
+        top: 19px
+        left: 49%
+        padding: 5px
+        background-color: #ffffff
+        z-index: 1
+    .gold-line
+        width: 340px
+        max-width: 100%
+        border-top: 1px solid $color-tertiary
+    p
+        text-align: center
+
+    .booking-button
+        text-align: center
+        a
+            margin-top: 50px
+            display: inline-block
+
+
+/* Section Booking styles */
+
+#footer
+    background: $color-secondary
+    color: $color-tertiary
+    padding: 35px 0 10px 0
+    text-align: center
+    .logo
+        margin-bottom: 18px
+
+    .menu
+        ul
+            list-style: none
+            list-style:
+            li
+                display: inline-block
+                margin-left: 75px
+                a
+                    color: $font-color-tertiary
+                    img
+                        margin-right: 20px
+
+    .copyright
+        margin-top: 65px
+        span
+            margin-left: 40px
+            opacity: .8
+
+
+/* Media Quarries Always at the end */
 
 @import "media"
