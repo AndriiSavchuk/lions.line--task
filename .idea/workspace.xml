@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5303ff8-598b-406a-93f4-29fb65607862" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,9 +40,12 @@
           <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="607">
-                  <caret line="406" column="33" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="406" selection-end-column="33" />
-                  <folding />
+                <state relative-caret-position="347">
+                  <caret line="441" column="22" lean-forward="true" selection-start-line="440" selection-start-column="12" selection-end-line="441" selection-end-column="22" />
+                  <folding>
+                    <marker date="1485085969091" expanded="true" signature="11596:13736" ph="..." />
+                    <marker date="1485085969091" expanded="true" signature="11596:12429" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -52,8 +53,8 @@
           <file leaf-file-name="_media.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="430" column="39" lean-forward="true" selection-start-line="430" selection-start-column="39" selection-end-line="430" selection-end-column="39" />
+                <state relative-caret-position="107">
+                  <caret line="428" column="30" lean-forward="true" selection-start-line="428" selection-start-column="30" selection-end-line="428" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -104,8 +105,8 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/sass/_base.sass" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/sass/_media.sass" />
       </list>
     </option>
@@ -286,12 +287,12 @@
       <workItem from="1484897183143" duration="19442000" />
       <workItem from="1485023513074" duration="10666000" />
       <workItem from="1485034487579" duration="53000" />
-      <workItem from="1485075082292" duration="12025000" />
+      <workItem from="1485075082292" duration="13373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77411000" />
+    <option name="totallyTimeSpent" value="78759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,7 +350,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1485085969091" expanded="true" signature="11596:13736" ph="..." />
+            <marker date="1485085969091" expanded="true" signature="11596:12429" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,7 +393,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1485085969091" expanded="true" signature="11596:13736" ph="..." />
+            <marker date="1485085969091" expanded="true" signature="11596:12429" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -429,7 +436,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1485085969091" expanded="true" signature="11596:13736" ph="..." />
+            <marker date="1485085969091" expanded="true" signature="11596:12429" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -469,7 +479,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1485085969091" expanded="true" signature="11596:13736" ph="..." />
+            <marker date="1485085969091" expanded="true" signature="11596:12429" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,7 +514,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
+          <folding>
+            <marker date="1485085969091" expanded="true" signature="11596:13736" ph="..." />
+            <marker date="1485085969091" expanded="true" signature="11596:12429" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -549,7 +565,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
           <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-          <folding />
+          <folding>
+            <marker date="1485085969091" expanded="true" signature="11596:13736" ph="..." />
+            <marker date="1485085969091" expanded="true" signature="11596:12429" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -655,14 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="406" column="33" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="406" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -671,10 +682,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="441" column="22" lean-forward="true" selection-start-line="440" selection-start-column="12" selection-end-line="441" selection-end-column="22" />
+          <folding>
+            <marker date="1485085969091" expanded="true" signature="11596:13736" ph="..." />
+            <marker date="1485085969091" expanded="true" signature="11596:12429" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="430" column="39" lean-forward="true" selection-start-line="430" selection-start-column="39" selection-end-line="430" selection-end-column="39" />
+        <state relative-caret-position="107">
+          <caret line="428" column="30" lean-forward="true" selection-start-line="428" selection-start-column="30" selection-end-line="428" selection-end-column="30" />
           <folding />
         </state>
       </provider>
