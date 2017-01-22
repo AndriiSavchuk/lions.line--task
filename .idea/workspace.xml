@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5303ff8-598b-406a-93f4-29fb65607862" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
@@ -21,14 +22,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45157385">
+    <splitter split-orientation="horizontal" split-proportion="0.5914044">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="184" column="59" lean-forward="true" selection-start-line="184" selection-start-column="59" selection-end-line="184" selection-end-column="59" />
+                <state relative-caret-position="220">
+                  <caret line="346" column="42" lean-forward="true" selection-start-line="346" selection-start-column="42" selection-end-line="346" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -42,7 +43,7 @@
             <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="607">
-                  <caret line="343" column="31" lean-forward="false" selection-start-line="343" selection-start-column="31" selection-end-line="343" selection-end-column="31" />
+                  <caret line="406" column="33" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="406" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -51,8 +52,8 @@
           <file leaf-file-name="_media.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="407" column="39" lean-forward="false" selection-start-line="407" selection-start-column="39" selection-end-line="407" selection-end-column="39" />
+                <state relative-caret-position="320">
+                  <caret line="430" column="39" lean-forward="true" selection-start-line="430" selection-start-column="39" selection-end-line="430" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -103,8 +104,8 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/sass/_base.sass" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/sass/_media.sass" />
       </list>
     </option>
@@ -285,12 +286,12 @@
       <workItem from="1484897183143" duration="19442000" />
       <workItem from="1485023513074" duration="10666000" />
       <workItem from="1485034487579" duration="53000" />
-      <workItem from="1485075082292" duration="10032000" />
+      <workItem from="1485075082292" duration="12025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75418000" />
+    <option name="totallyTimeSpent" value="77411000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,26 +655,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="184" column="59" lean-forward="true" selection-start-line="184" selection-start-column="59" selection-end-line="184" selection-end-column="59" />
+        <state relative-caret-position="607">
+          <caret line="406" column="33" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="406" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="343" column="31" lean-forward="false" selection-start-line="343" selection-start-column="31" selection-end-line="343" selection-end-column="31" />
+        <state relative-caret-position="220">
+          <caret line="346" column="42" lean-forward="true" selection-start-line="346" selection-start-column="42" selection-end-line="346" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="407" column="39" lean-forward="false" selection-start-line="407" selection-start-column="39" selection-end-line="407" selection-end-column="39" />
+        <state relative-caret-position="320">
+          <caret line="430" column="39" lean-forward="true" selection-start-line="430" selection-start-column="39" selection-end-line="430" selection-end-column="39" />
           <folding />
         </state>
       </provider>
