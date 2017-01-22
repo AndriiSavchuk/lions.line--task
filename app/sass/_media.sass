@@ -6,6 +6,7 @@
 /* Large devices (desktops, less than 1200px) */
 @media only screen and (max-width : 1199px)
 
+
     /* Header styles */
 
     #header
@@ -27,32 +28,307 @@
             left: 56%
 
 
+    /* Section Rooms styles */
+
+    #rooms
+        .top-nav
+            margin-bottom: 130px
+            .menu
+                float: left
+                .menu-img
+                    float: left
+                    width: 36px
+                    height: 21px
+                    line-height: 1
+                    img
+                        padding: 13px 11px
+                        background-color: $color-secondary
+                .phone
+                    float: right
+                    background-color: rgba(0, 0, 0, 0.4)
+                    color: $font-color-secondary
+                    padding: 20px 16px
+                    font-size: 22px
+                    margin-left: 21px
+                    line-height: 1
+
+            .book-lang
+                float: right
+                .book
+                    float: left
+                    background-color: $color-tertiary
+                    padding: 16px 16px
+                    img
+                        width: 30px
+                .lang
+                    float: right
+                    padding: 20px 15px
+                    background-color: $color-secondary
+                    color: $font-color-secondary
+
+        .rooms-content
+            .rooms-descr
+                h3
+                    margin-bottom: 20px
+
+            .room-photo
+                &.standart
+                    h3
+                        left: 27%
+                &.friends
+                    h3
+                        left: 19%
+                &.semilux
+                    h3
+                        left: 25%
+                &.shale
+                    h3
+                        left: 45%
+                &.lux
+                    h3
+                        left: 35%
+
+            .room-photo
+                .mask
+                    p
+                        padding: 50px 5px 0 5px
+                        font-size: 14px
+
+
+    /* Section Offer styles */
+
+    #offer
+        .offer-wraper
+            .superoffer
+                .superoffer-block
+                    .logo
+                        left: 38%
+
+                    .superoffer-text
+                        padding: 40px 130px
+
+        .description-wrapper
+            .offer-description
+                ul
+                    li
+                        margin-bottom: 21px
+
+
+    /* Section Testimonials styles */
+
+    #testimonials
+        p
+            margin-left: 50px //
+
+
+    /* Section Advantages styles */
+
+    #advanteges
+        .restaurant
+            .description-wrapper
+                width: 400px
+                .description
+                    h5
+                        font-size: 22px
+                        margin-top: 20px
+                    p
+                        padding: 0 10px
+                        margin-top: 10px
+                    .description-arrow
+                        text-align: center
+                        padding-bottom: 10px
+
+            .restaurant-slider
+
+                .left-arrow
+                    bottom: 40%
+
+                .right-arrow
+                    bottom: 37%
+
+
+    /* Footer styles */
+
+    #footer
+        background: $color-secondary
+        color: $color-tertiary
+        padding: 35px 0 10px 0
+        text-align: center
+        .logo
+            margin-bottom: 18px
+
+        .menu
+            ul
+                list-style: none
+                list-style:
+                li
+                    display: inline-block
+                    margin-left: 45px //
+                    a
+                        color: $font-color-tertiary
+                        img
+                            margin-right: 20px
+
+        .copyright
+            margin-top: 65px
+            span
+                margin-left: 40px
+                opacity: .8
+
 
 
 
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (max-width : 991px)
 
+
    /* Header styles */
 
    #header
+       height: 800px
        .welcome
            padding: 50px 20px
            width: 40%
            .welcome-content
+               padding: 0 15px
                h1
-                   margin: 26px 0 45px 0
+                   margin: 16px 0 25px 0
+                   font-size: 24px
                a
-                   margin-top: 45px
+                   margin-top: 15px
                    font-size: 22px
 
        .placeholder
            left: 45%
 
 
+   /* Section Rooms styles */
+
+   #rooms
+       .top-nav
+           margin-bottom: 60px
+
+       .rooms-content
+           .rooms-descr
+               padding: 0 100px
+               .welc-icon
+                   left: 48%
+               h3
+                   margin-bottom: 20px
+
+           .room-photo
+               &.standart
+                   h3
+                       left: 28%
+               &.friends
+                   h3
+                       left: 23%
+               &.semilux
+                   h3
+                       left: 25%
+               &.shale
+                   h3
+                       left: 43%
+               &.lux
+                   h3
+                       left: 38%
+
+           .room-photo
+               .mask
+                   p
+                       padding: 50px 5px 0 5px
+                       font-size: 16px
+                       line-height: 1.2
+
+
+       /* Section Offer styles */
+
+   #offer
+       .offer-wraper
+           .superoffer
+               .superoffer-block
+                   .logo
+                       left: 38%
+
+                   .superoffer-text
+                       padding: 40px 80px
+
+       .description-wrapper
+           .offer-description
+               .gold-line
+                   width: 280px
+
+               h3
+                   font-size: 32px
+                   margin-top: 25px
+                   li
+                       margin-bottom: 21px
+
+
+       /* Section Testimonials styles */
+
+   #testimonials
+       .welc-icon
+           left: 48%
+
+       .testimonial-img
+           img
+               margin-left: 30px
+       p
+           padding-top: 30px
+
+
+   /* Section Advantages styles */
+
+   #advanteges
+       padding: 20px 0
+       .restaurant
+           .description-wrapper
+               top: 20px
+               left: 70px
+               width: 400px
+               .description
+                   h5
+                       font-size: 22px
+                       margin-top: 20px
+                   p
+                       padding: 0 10px
+                       margin-top: 10px
+                   .description-arrow
+                       text-align: center
+                       padding-bottom: 10px
+
+           .restaurant-slider
+               .slider-photo
+                   display: none
+
+               .slider-photo-dish
+                   width: 90%
+                   margin: 0 5%
+
+
+               .left-arrow
+                   bottom: 20%
+
+               .right-arrow
+                   bottom: 17%
+
+
+   /* Footer styles */
+
+   #footer
+       .menu
+           ul
+               li
+                   margin-left: 25px //
+
+
+
+
 
 /* Small devices (landscape phones, less than 768px) */
 @media only screen and (max-width : 767px)
+
 
     /* Header styles */
 
@@ -77,12 +353,182 @@
                     padding: 16px 15px
 
         .welcome
+            padding: 50px 10px
+            width: 40%
+            .welcome-content
+                h1
+                    margin: 16px 0 25px 0
+                    font-size: 22px
+                a
+                    margin-top: 15px
+                    font-size: 22px
+
+        .placeholder
+            left: 45%
+
+
+    /* Under Header line styles */
+
+    #line
+        .arrows
+            left: 56%
+
+
+    /* Section Rooms styles */
+
+    #rooms
+        .top-nav
+            margin-bottom: 40px
+        .rooms-content
+
+            .room-photo
+                h3
+                    position: absolute
+                    color: $font-color-secondary
+                    text-transform: uppercase
+                    font-family: $font-family-secondary
+                    font-size: 18px
+                    opacity: .8
+                    transition: 0.7s
+                &.standart
+                    h3
+                        left: 35%
+                &.friends
+                    h3
+                        left: 29%
+                &.semilux
+                    h3
+                        left: 32%
+                &.shale
+                    h3
+                        left: 43%
+                &.lux
+                    h3
+                        left: 40%
+                .mask
+                    p
+                        font-size: 14px
+
+
+    /* Section Offer styles */
+
+    #offer
+        padding-top: 30px
+        .offer-wraper
+            .superoffer
+                padding: 20px
+                .superoffer-block
+                    .logo
+                        left: 35%
+                    h4
+                        font-size: 18px
+                    .superoffer-text
+                        padding: 20px 40px
+
+        .description-wrapper
+            padding-right: 10px
+            .offer-description
+                padding: 25px 0
+                .welc-icon
+                    top: 25px
+                    left: 45%
+                .gold-line
+                    width: 240px
+                h3
+                    font-size: 22px
+                ul
+                    padding-right: 5px
+                    margin-top: 25px
+                    li
+                        font-size: 14px
+                        margin-bottom: 15px
+
+    /* Section Advantages styles */
+
+    #advanteges
+        padding: 20px 0
+        .restaurant
+            .description-wrapper
+                top:  10px
+                left: 40px
+                width: 400px
+                .description
+                    h5
+                        font-size: 16px
+                        margin-top: 5px
+                    p
+                        padding: 0 5px
+                        margin-top: 5px
+                        font-size: 14px
+                    .description-arrow
+                        text-align: center
+                        padding-bottom: 5px
+
+            .restaurant-slider
+                .slider-photo
+                    display: none
+
+                .slider-photo-dish
+                    width: 90%
+                    margin: 0 5%
+                .left-arrow
+                    bottom: 40%
+
+                .right-arrow
+                    bottom: 37%
+
+    /* Footer styles */
+
+    #footer
+        .menu
+            ul
+                list-style: none
+                text-align: left
+                padding-left: 35%
+                li
+                    display: block
+                    margin-bottom: 10px
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width : 575px)
+
+    /* Header styles */
+
+    #header
+        height: 700px
+        .top-nav
+            .menu
+                .menu-img
+                    img
+                        padding: 7px 11px
+                .phone
+                    padding: 16px 12px
+                    margin-left: 18px
+                    font-size: 18px
+
+            .book-lang
+                .book
+                    a
+                        font-size: 18px
+                        padding: 16px 9px 16px 49px
+                    img
+                        top: 9px
+                        left: 15px
+                        width: 30px
+                .lang
+                    padding: 15px 13px
+
+
+        .welcome
             padding: 50px 20px
             width: 50%
             .welcome-content
+
                 h1
                     margin: 26px 0 45px 0
-                    font-size: 32px
+
                 a
                     margin-top: 45px
 
@@ -96,50 +542,39 @@
             left: 46%
 
 
+    /* Section Rooms styles */
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media only screen and (max-width : 575px)
-
-    /* Header styles */
-
-    #header
+    #rooms
         .top-nav
-            .menu
-                .menu-img
-                    img
-                        padding: 9px 11px
-                .phone
-                    padding: 16px 12px
-
-                    margin-left: 18px
-
-            .book-lang
-                .book
-                    a
-                        padding: 16px 12px 16px 50px
-                    img
-                        top: 9px
-                        left: 15px
-                        width: 30px
-                .lang
-                    padding: 16px 15px
-
-
-        .welcome
-            padding: 50px 20px
-            width: 50%
-            .welcome-content
-
-                h1
-                    margin: 26px 0 45px 0
-                    font-size: 32px
-                a
-                    margin-top: 45px
-
-
-        .placeholder
-            left: 45%
-
+            margin-bottom: 40px
+        .rooms-content
+            .room-photo
+                h3
+                    position: absolute
+                    color: $font-color-secondary
+                    text-transform: uppercase
+                    font-family: $font-family-secondary
+                    font-size: 18px
+                    opacity: .8
+                    transition: 0.7s
+                &.standart
+                    h3
+                        left: 30% //
+                &.friends
+                    h3
+                        left: 23% //
+                &.semilux
+                    h3
+                        left: 27% //
+                &.shale
+                    h3
+                        left: 43% //
+                &.lux
+                    h3
+                        left: 37% //
+                .mask
+                    p
+                        font-size: 14px
 
 
 

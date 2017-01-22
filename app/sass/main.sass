@@ -77,7 +77,7 @@
                 top: -22px
                 left: 43%
                 padding: 5px
-                background-color: $color-primary
+                background-color: #ffffff
                 z-index: 1
             h1
                 margin: 26px 0 95px 0
@@ -184,7 +184,7 @@
             position: relative
             h3
                 position: absolute
-                top: 40px
+                top: 30px
                 color: $font-color-secondary
                 text-transform: uppercase
                 font-family: $font-family-secondary
@@ -196,7 +196,7 @@
                     left: 30%
             &.friends
                 h3
-                    left: 25%
+                    left: 22%
             &.semilux
                 h3
                     left: 27%
@@ -229,12 +229,13 @@
                 width: 90%
                 height: 90%
                 border: 1px solid $color-primary
-                padding-top: 80px
                 overflow: hidden
                 opacity: 0
                 transition: 0.7s
+                h3
+                    top: 20px
                 p
-                    padding: 5px 15px
+                    padding: 60px 15px 0 15px
                     color: $font-color-secondary
                     font-size: 16px
                     font-family: $font-family-primary
@@ -264,9 +265,9 @@
 
         .room-photo
             &:hover
-                h3
-                    top: 40px
-                    transition: 0.7s
+                //h3
+                //    //top: 40px
+                //    transition: 0.7s
                 .mask
                     opacity: 1
                     transition: 0.7s
@@ -340,6 +341,7 @@
             h3
                 color: $font-color-secondary
                 font-family: $font-family-secondary
+                font-size: 36px
                 text-align: center
                 text-transform: uppercase
                 opacity: .8
@@ -384,8 +386,11 @@
         border-top: 1px solid $color-tertiary
 
     .testimonial-img
+        width: 152px
+
         img
-            width: 152px
+            display: block
+            max-width: 100%
             border-radius: 50%
             border: 1px solid $color-secondary
 
@@ -393,7 +398,7 @@
         color: $font-color-primary
         font-family: $font-family-primary
         font-size: 16px
-        padding: 15px 100px 0 0
+        margin-left: 40px
 
     .testimonial-button
         text-align: center
@@ -408,7 +413,6 @@
     position: relative
     background-color: #fff
     padding-top: 20px
-    padding-bottom: 80px
     h3
         color: $font-color-primary
         text-transform: uppercase
@@ -506,8 +510,7 @@
 #booking
     position: relative
     background-color: #fff
-    padding-top: 20px
-    padding-bottom: 80px
+    padding: 20px 10px 80px
     h3
         color: $font-color-primary
         text-transform: uppercase
@@ -537,7 +540,7 @@
             display: inline-block
 
 
-/* Section Booking styles */
+/* Footer styles */
 
 #footer
     background: $color-secondary
